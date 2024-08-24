@@ -1,0 +1,8 @@
+build/
+
+node_modules/
+public/
+assets/
+src/styles/
+
+next.config.mjs
