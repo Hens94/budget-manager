@@ -1,8 +1,5 @@
 import type { Config } from "tailwindcss";
-import twColors from "tailwindcss/colors";
-
-const { lightBlue, warmGray, trueGray, coolGray, blueGray, ...colors } =
-  twColors;
+import colors from "tailwindcss/colors";
 
 const config: Config = {
   content: [
@@ -12,7 +9,6 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      ...colors,
       primary: " #308e87",
       secondary: "#f39159",
       success: "#3eb95f",
@@ -23,6 +19,7 @@ const config: Config = {
       muted: "#aaa3a0",
     },
     extend: {
+      colors: { ...colors },
       gridTemplateRows: {
         layout: "77px 1fr",
       },
