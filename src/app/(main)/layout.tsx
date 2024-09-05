@@ -1,5 +1,5 @@
 import Header from "@/components/layout/Header";
-import Sidebar from "@/components/layout/Sidebar";
+import Sidebar from "@/components/layout/sidebar/Sidebar";
 import type { PropsWithChildren } from "react";
 
 const MainLayout = ({ children }: PropsWithChildren) => {
