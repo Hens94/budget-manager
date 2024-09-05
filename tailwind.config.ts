@@ -17,6 +17,7 @@ const config: Config = {
       danger: "#e74b2b",
       body: "#f9f7f6",
       muted: "#aaa3a0",
+      "font-color": "#292929",
     },
     extend: {
       colors: { ...colors },
